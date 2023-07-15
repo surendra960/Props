@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Getvalue from "./Getvalue";
+
 
 function App(){
 const[data,setData] = useState(0);
@@ -12,6 +14,7 @@ const[data,setData] = useState(0);
     return(
         <>
         <button onClick={funk}>myButton</button>
+        <Getvalue/>
         </>
     )
 }
