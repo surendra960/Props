@@ -13,8 +13,9 @@ function Toggale() {
             simple ? <h1>Showing Line</h1> : null 
         }
 
-        <button onClick={()=>changeSimple(false)}>Hide</button>
-        <button onClick={()=>changeSimple(true)}>Show</button>
+        {/* <button onClick={()=>changeSimple(false)}>Hide</button>
+        <button onClick={()=>changeSimple(true)}>Show</button> */}
+        <button onClick={()=>changeSimple(!simple)}>Toggle show - hide</button>
 
     </div>
   )
