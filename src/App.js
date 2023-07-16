@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Getvalue from "./Getvalue";
 import Adding_page from "./Adding_page";
+import Toggale from "./Toggale";
 
 function App(){
 const[data,setData] = useState(0);
@@ -16,6 +17,7 @@ const[data,setData] = useState(0);
         <button onClick={funk}>myButton</button>
         <Getvalue/>
         <Adding_page/>
+        <Toggale/>
         </>
     )
 }

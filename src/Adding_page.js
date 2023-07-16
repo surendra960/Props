@@ -1,4 +1,5 @@
-import React from 'react'
+// import React from 'react'
+
 import react ,{ useState } from 'react'
 
 function Adding_page() {
